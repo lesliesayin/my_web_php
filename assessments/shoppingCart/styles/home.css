@@ -1,0 +1,287 @@
+body {
+	margin: 0px
+}
+#overlay {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	position: fixed;
+	opacity: .7;
+	display: none;
+}
+#frame {
+	width: 1000px;
+    height: 550px;
+    margin-top: 50px;
+    margin-left: 250px;
+    position: fixed;
+    background-color: white;
+    overflow: scroll;
+    display: none;
+}
+/*#view {
+	width: 45%;
+    height: 350px;
+    margin-top: 90px;
+    margin-left: 430px;
+    position: fixed;
+    background-color: red;
+    display: none;
+}*/
+#main {
+	font-family: Calibri, Arial, Sans-serif;
+	width: 80%;
+	height: 1350px;
+	margin: auto;
+	border: solid #E0A14F;
+	//position: relative;
+}
+#header {
+	width: 100%;
+	height: 250px;
+	margin: auto;
+	//border: solid;
+	//position: absolute;
+}
+#hleft {
+	width: 40%;
+	height: 250px;
+	//border: solid;
+	float: left;
+}
+#hleft img {
+	width: 100%;
+	height: 250px;
+}
+#hlogo {
+	width: 58%;
+	height: 250px;
+	//border: solid;
+	float: left;
+}
+#hlogo img {
+	width: 100%;
+	height: 250px;
+}
+#nav {
+	width: 100%;
+	height: 50px;
+	background-color: #151715;
+	//border: solid;
+}
+#nleft {
+	width: 40%;
+	height: 50px;
+	float: left;
+	//border: solid;
+}
+#nleft li{
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	margin-left: 20px;
+	margin-top: -3px;
+	list-style-type: none;
+	background-color: #E0A14F;
+	padding: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 5px;
+}
+#nleft #list1 {
+	margin-left: 0px;
+}
+#nleft li:hover {
+	background-color:#FFC04E;
+}
+#nright {
+	width: 60%;
+	height: 50px;
+	float: left;
+	//border: solid white;
+}
+#nright li {
+	list-style-type: none;
+	float: left;
+	margin-left: 40px;
+	color: #E0A14F;
+	font-size: 20px;
+	font-weight: bold;
+}
+#nright li:hover {
+	color: white;
+}
+#left {
+	width: 25%;
+	//border: solid #E0A14F;
+	margin-top: -5px;
+	margin-left: 15px;
+	float: left;
+	//background-color: green;
+}
+#ltop {
+	width: 100%;
+    height: 550px;
+    background-color: white;
+    border-bottom: solid;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+}
+#ltop p {
+	height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 20px;
+    background-color: #151715;
+    color: white;
+    border-radius: 5px;
+}
+#ltop div {
+	margin-bottom: 40px;
+}
+
+#div1 {
+	margin-top: 30px;
+}
+input[type="text"] {
+	margin-left: 20px;
+}
+li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+.category li {
+	width: 60%;
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 10px;
+    color: #151715;
+    margin-left: -20px;
+    margin-bottom: 5px;
+}
+.category li:hover {
+	background-color: #E0A14F;
+	color: #151715;	
+}
+#lbtm {
+	width: 100%;
+	height: 280px;
+}
+#lbtm img {
+	width: 100%;
+	height: 393px;
+}
+#right {
+	width: 70%;
+	height: 1000px;
+	//border: solid;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#banner {
+	width: 95%;
+	height: 250px;
+	margin: auto;
+	margin-top: 10px;
+	border: solid #E0A14F;
+}
+#banner img {
+	width: 100%;
+	height: 100%;
+}
+#mdl {
+	width: 95%;
+	height: 315px;
+	margin: auto;
+	background-color: #151715;
+	//border: 3px solid #E0A14F;
+}
+#mtitle {
+	text-align: center;
+	font-size: 30px;
+	color:#E0A14F;
+	font-weight: bold;
+	//background-color: green;
+}
+#mdl-img {
+	width: 28%;
+    height: 250px;
+    margin-top: -10px;
+    //background-color: red;
+    float: left;
+
+}
+#mdl-img img {
+	width: 100%;
+	height: 250px;
+}
+#mdl-txt {
+	width: 70%;
+	height: 250px;
+	margin-top: -10px;
+	margin-left: 10px;
+	text-align: justify;
+	color:white;
+	font-size: 18px;
+	//background-color: ;
+	float: left;
+}
+#mdl-txt #p3 {
+	font-size: 24px;
+	margin-top: 0px;
+}
+#btm {
+	width: 100%;
+	height: 370px;
+	//background-color: red;
+	margin-top: 20px;
+}
+.articles {
+	margin-right: 18px;
+	border: 3px solid #E0A14F;
+	//position: absolute;
+}
+#btm #article1 {
+	width: 27.5%;
+	height: 100%;
+	margin-left: 20px;
+	background-color: #3F4A3F;
+	float: left;
+	//position: absolute;
+}
+#btm #article2 {
+	width: 30%;
+	height: 100%;
+	background-color: #3F4A3F;
+	border-color: #E0A14F;
+	float: left;
+	//position: absolute;
+}
+#btm #article3 {
+	width: 30%;
+	height: 100%;
+	background-color: #3F4A3F;
+	border-color: #E0A14F;
+	float: left;
+	//position: absolute;
+}
+.images {
+	width: 100%;
+	height: 200px;
+	//border: 3px solid red;
+}
+.images img {
+	width: 100%;
+	height: 100%;
+}
+.par {
+	width: 95%;
+	margin: auto;
+	margin-top: 20px;
+	color:white;
+}

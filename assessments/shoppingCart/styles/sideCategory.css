@@ -1,0 +1,87 @@
+#overlay {
+			width: 100%;
+			height: 100%;
+			background-color: black;
+			position: fixed;
+			opacity: .7;
+			display: none;
+		}
+		#frame {
+			width: 1000px;
+		    height: 550px;
+		    margin-top: 50px;
+		    margin-left: 180px;
+		    position: fixed;
+		    background-color: white;
+		    overflow: scroll;
+		    display: none;
+		}
+		h1 {
+			width: 95%;
+			float: left;
+		}
+		#exit {
+			width: 30px;
+			height: 30px;
+			float: left;
+			margin-top: 25px;
+			font-size: 24px;
+			font-weight: bolder;
+		}
+		table, th, td {
+			border: 1px solid #FFC04E;
+		}
+		table {
+			width: 100%;
+			height: auto;
+			background-color: white;
+			border-collapse: collapse;
+			font-family: Calibri, Arial, Sans-serif;
+		}
+		tr {
+			width: 100%;
+			height: 150px;
+			//background-color: red;
+		}
+		td {
+			width: 24.5%;
+			height: 100%;
+			float: left;
+			color: white;
+			background-color: #151715;
+		}
+		div {
+			width: 100%;
+			height: 250px;
+		}
+		div img {
+			width: 100%;
+			height: 100%;
+		}
+		#p1, #p2 {
+			width: 100%;
+			height: 30px;
+			text-align: center;
+		}
+		#p1 {
+			font-size: 20px;
+		}
+		#p2 {
+			font-size: 24px;
+			font-weight: bolder;
+		}
+		#btnview {
+			width: 100px;
+			height: 30px;
+			border-radius: 5px;
+			margin-left: 70px;
+			margin-top: -50px;
+			margin-bottom: 20px;
+			font-size: 20px;
+			font-weight: bold;
+			color: white;
+			background-color: #E0A14F;
+		}
+		#btn:hover {
+			background-color: #FFC04E;
+		}

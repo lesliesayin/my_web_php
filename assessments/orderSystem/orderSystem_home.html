@@ -1,0 +1,72 @@
+<!doctype HTML>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ABC Home</title>
+	<link rel="stylesheet" type="text/css" href="orderSystem_styles.css">
+	<script type="text/javascript" src="orderSystem_script.js"></script>
+</head>
+<body onload="initializer()">
+	<div class="main">
+		<h1>ABC Order System</h1>
+		<div class="section">
+			<div id="top" class="sec">
+				<div id="left">
+					<h2>Menu</h2>
+					<div id="menu">
+						<div>
+							<input type="checkbox" id="cb1" class="chckbox" onclick="enable()" >Baby Back Ribs (250.00)</input><br>
+						</div>
+						<div>
+							<input type="checkbox" id="cb2" class="chckbox" onclick="enable()">T-Bone Steak (300.00)</input><br>
+						</div>
+						<div>
+							<input type="checkbox" id="cb3" class="chckbox" onclick="enable()">Porterhour Steak (200.00)</input><br>
+						</div>
+					</div>
+				</div>
+				
+				<div id="right">
+				<p>Quantity</p>
+					<form id="quantity">
+						<div>
+							<input type="number" min="1" step="1" maxlength="3" onkeyup="this.value=this.value.replace(/[^\d]+/,'')"  onkeypress="enable()" class="number" id="q1" disabled>
+						</div>
+						<div>
+							<input type="number" min="1" step="1" maxlength="3" onkeyup="this.value=this.value.replace(/[^\d]+/,'')" onkeypress="enable()" class="number" id="q2" disabled>
+						</div>
+						<div>
+							<input type="number" min="1" step="1" maxlength="3" onkeyup="this.value=this.value.replace(/[^\d]+/,'')" onkeypress="enable()" class="number" id="q3" disabled>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div id="middle" class="sec">
+				<h2>Add Ons</h2>
+				<div id="addOns">
+					<div>
+						<input type="checkbox" class="chckbox" id="rice">With Rice (20.00)</input>
+					</div>
+					<div>
+						<input type="checkbox" class="chckbox" id="drinks">With Drinks (30.00)</input>
+					</div>
+				</div>
+			</div>
+			<div id="btm" class="sec">
+				<h2>Discounts</h2>
+				<div id="discount">
+					<div>
+						<input id="senior" type="radio" class="rd" name="discount">Senior Citizen (20% Off)</input>
+					</div>
+					<div>
+						<input id="loyalty" type="radio" class="rd" name="discount">Loyalty (10% Off)</input>
+					</div>
+				</div>
+			</div>
+			<div id="btn">
+				<input type="button" value="Bill" id="bill" onclick="getBillTotal()">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
